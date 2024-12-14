@@ -1,0 +1,121 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.postion{
+    transform: translateY(-160px);
+    
+}
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Start header css */
+
+.main_header{
+    height: 80vh;
+    background-color:  #009FBF;
+}
+
+.main_header nav .nav-link{
+    color: white;
+}
+
+.main_header nav .nav-link:hover{
+    color: black;
+}
+
+.main_header .contant{
+position: relative;
+top: 40%;
+transform: translateY(-50%);
+}
+
+.main_header .contant .row .image{
+    position: relative;
+}
+
+.main_header .contant .row .image svg{
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media(max-width:767px){
+    .main_header .contant div img ,
+    .main_header .contant div svg
+    {
+        display: none;
+    }
+    
+
+    .main_header .contant .text{
+        text-align: center;
+    }
+}
+
+@media(max-width:991px){
+    .main_header .contant{
+        top: 25%;
+    }
+
+    .main_header{
+        height: 70vh;
+
+    }
+
+}
+
+/* End header css */
+
+/* start footer */
+
+footer  {
+    background-color:  #009FBF;
+}
+
+footer .container .row div .image img{
+    height: 120px;
+    border-radius: 316px;
+    background: rgba(255, 255, 255, 0.40);
+}
+
+footer .container .footer_list a{
+    color: white;
+}
+
+footer .container .footer_list a:hover{
+color: black;
+font-size: 18px;
+}
+
+/* End footer */
+
+/* Start register */
+
+.register_login{
+    transform: translateY(-170px);
+}
+
+.register_login form{
+    background-color: white;
+    padding: 30px;
+    transform: translateY(-6px);
+}
+
+.register_login  .button:hover{
+background-color: white !important;
+} 
+
+.hidden {
+    display: none;
+}
+
+/* end register */

@@ -1,0 +1,1 @@
+<img src="{{asset('image/logo.png')}}" alt="" style="width: 155px;">
